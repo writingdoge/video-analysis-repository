@@ -1,1 +1,7 @@
 Single-database configuration for Flask.
+
+
+使用 Alembic 作为数据库迁移管理工具，
+通过 env.py、alembic.ini 等文件进行配置，
+并在 versions/ 目录下保存每次的迁移记录。
+这个设置允许开发者在项目开发和部署的不同阶段中管理和跟踪数据库结构的变化。
